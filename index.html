@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="header">
+      СПИСОК ДЕЛ
+    </div>
+    <div class=main-wrapper>
+      <div class="create-task__wrapper">
+        <span class='title-create'>Новая задача</span>
+        <input type="text" name="" value="" placeholder="Описание задачи"
+        class='task'>
+        <button type="button" name="button" class='create'>Создать</button>
+      </div>
+      <div class="placeholder__container" draggable="false">
+        <div class="placeholder-start">Нужно сделать</div>
+          <div class="placeholder" draggable="false">
+          </div>
+      </div>
+      <div class="placeholder__container">
+        <div class="placeholder-progress">В процессе</div>
+        <div class="placeholder">
+        </div>
+      </div>
+      <div class="placeholder__container">
+        <div class="placeholder-end">Сделано</div>
+        <div class="placeholder">
+        </div>
+      </div>
+      </div>
+    <script src='app.js'></script>
+  </body>
+</html>
